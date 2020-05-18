@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact Us</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!---Nav Bar --->
+		<nav class="navbar navbar-default" id="top">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a class="navbar-brand" href="index.html">Soures Photography</a>
+    			</div>
+    			<ul class="nav navbar-nav">
+      				<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+      				<li><a href="gallery.html">Pictures</a></li>
+      				<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="services.html">Services</a></li>
+      				<li class="active"><a href="contact.html">Contact Us</a></li>
+    			</ul>
+				<a href="https://www.instagram.com/soures_photography/" target="_blank" class="fa fa-instagram" style="padding:5px;font-size:30px;width:50px;text-decoration:none;float:right;"> </a>
+				<a href="https://www.youtube.com/channel/UCvWtVN-nkVV-kFuZZmv8rMA" target="_blank" class="fa fa-youtube" style="padding:5px;font-size:30px;width:50px;text-decoration:none;float:right;"> </a>
+				<a href="https://www.flickr.com/photos/188333593@N05/" target="_blank" class="fa fa-flickr" style="padding:5px;font-size:30px;width:50px;text-decoration:none;float:right;"> </a>
+  			</div>
+		</nav>
+		<!-- Main Page Content -->
+		<div class="container-fluid">
+			<form action="Formsubmit.html" method="get">
+				<h1 class="all1" id="cform"> Contact Us </h1>
+				<p>
+					<label for="fname"> *Name: <input type="text" placeholder="John" name="Name" id="fname" required/> </label>
+				</p>
+				<p>
+					<label for="fphone"> *Contact Number: <input type="contact" id="fphone" pattern="\d{8}" title="8 Digit Phone number" placeholder="85772968" required/></label>
+				</p>
+				<p>
+					<label for="femail"> *Email Address: <input type="email" id="femail" placeholder="Johnlim@gmail.com" required/> </label>
+				</p>
+				<p>
+					<label for="ftypeofqn"> *Type Of Question: 
+						<select name="Type Of Qn" id="ftypeofqn">
+							<option value="Buying Of Package"> Buying Of Package </option>
+							<option value="Need More Than 500 Pictures"> Need More Than 500 Pictures </option>
+							<option value="Feedback"> Feedback </option>
+							<option value="Others"> Others </option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label for="fpackageno"> Package Number (If You Are Purchasing A Package):
+						<select name="Package Number" id="fpackageno">
+							<option value="none" selected="selected"> None </option>
+							<option value="P1"> P1 </option>
+							<option value="P2"> P2 </option>
+							<option value="P3"> P3 </option>
+							<option value="P4"> P4 </option>
+							<option Value="V1"> V1 </option>
+							<option value="V2"> V2 </option>
+							<option value="A1"> A1 </option>
+							<option value="A2"> A2</option>
+						</select>
+					</label> 
+				</p>
+				<fieldset class="ffield">
+					<legend class="flege"> Fill This Part Only If You Are Buying A Package </legend>
+					<div class="ffielddiv">
+					<p>
+						<label for="fdate"> Date:
+							<input type="date" name="Appointment Date" id="fdate">
+						</label>
+					</p>
+					<p>
+						<table>
+							<th> Time Slot: </th>
+							<tr>
+								<td>
+									<input type="checkbox" name="Time Slot" id="T1" value="T1:9am-12pm">
+									<label for="T1">  9am-12pm </label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								<input type="checkbox" name="Time Slot" id="T2" value="T2:1pm-4pm">
+								<label for="T2"> 1pm-4pm </label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Time Slot" id="T3" value="T3:5pm-7pm">
+									<label for="T3"> 5pm-7Pm </label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Time Slot" id="T4" value="T4:Others">
+									<label for="T4"> Others: (Please State The Time in the "Your Message" Section) </label>
+								</td>
+							</tr>
+						</table>
+					</p>
+					</div>
+				</fieldset>
+				<br>
+				<p>
+					<label for="fwebsite"> Your Website/Page(If You Have) <input type="url" name="Your Website" id="fwebsite" placeholder="https://www.Instagram.com"/> </label>
+				</p>
+				<p>
+					<label for="fanyother"> Your Message: </label>
+					<br>
+					<textarea name="Message" id="fanyother" class="textareaform"> </textarea>
+				</p>
+				<p>
+					<input type="submit"/>
+					<input type="reset"/>
+				</p>
+				<p> Fields Denoted With * Are Required </p>
+			</form>
+		</div>
+		<!---Footer --->
+		<div class="container-fluid nfooter">
+			<div class="row">
+				<div class="col-sm-4">
+  					<h3> Contact </h3>
+					<p> Email: <a href="mailto:191058H@mymail.nyp.edu.sg"> Click Here </a> </p>
+					<p> Contact number: 91929395 </p>
+					<p> Address: 180 Ang Mo Kio Ave 8 </p>
+					<p> Soures Photography &copy; All Rights Reserved</p>
+					<p> For Educational Purpose Only </p>
+				</div>	
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<h3> Our Social Media Pages</h3>
+					<a href="https://www.instagram.com/soures_photography/" target="_blank"> Instagram </a>
+					<br>
+					<a href="https://www.youtube.com/channel/UCvWtVN-nkVV-kFuZZmv8rMA" target="_blank"> Youtube Channel </a>
+					<br>
+					<a href="https://www.flickr.com/photos/188333593@N05/" target="_blank"> Flickr </a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

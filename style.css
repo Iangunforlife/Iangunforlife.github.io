@@ -1,0 +1,99 @@
+/* All Pages */
+.nfooter {
+  background-color:#252525;
+  padding:10px;
+  color:white;
+  margin-color:#252525;
+}
+
+.all1{
+	text-align:center;
+}
+
+html,body {
+    height: 100%
+}
+
+
+/* Index Page */
+.asent {
+	font-size:200%; 
+	text-align:center;
+}
+
+.iul{
+  font-size:200%;
+}
+
+/* About Us Page */
+#nabtpic {
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 10px;
+	border-radius:50%;
+	height:50%;
+	width:50%;
+}
+
+/* Gallery */
+.gimg {
+   	width:100%;
+}
+
+/* Reviews */
+
+
+/* Services */
+.ptable {
+	margin-left:auto; 
+    margin-right:auto;
+	width:100%;
+}
+
+.sadvise {
+	font-weight:bold;
+}
+
+/* Contact Us */
+.ffield {
+    border:1px solid threedface;
+	margin:1px;
+	padding:1px;
+}
+
+.flege {
+	font-size:100%;
+	width:inherit;
+	border:0px;
+	padding-inline-start: 2px;
+    padding-inline-end: 2px;
+}
+
+.ffielddiv {
+	padding-left:1%;	
+}
+
+.textareaform {
+	height:250px;
+	width:500px;
+}
+
+/* Form Submit */
+.submit1 {
+	text-align:center;
+	font-size:120%;
+}
+
+/* Not Needed For Now 17/5/20
+.nfootersp {
+ 	background-color:#252525;
+  	padding:10px;
+ 	color:white;
+  	margin-color:#252525;
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	height: 150px;
+ 	width: 100%;
+}
