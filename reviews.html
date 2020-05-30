@@ -7,6 +7,7 @@
 		<link href="style.css" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="Script.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
@@ -59,13 +60,13 @@
 		<!---Form:Leave Review --->
 		<div class="container-fluid">
 			<h1 class="all1"> Leave A Review </h1>
-			<form action="" method="get">
+			<form action="Formsubmitreview.html" method="get" class="allform" onSubmit="formsubmit()">
 				<p>
 					<label for="rname"> *Name: <input type="text" placeholder="John" id="rname" name="Name" required/> </label>
 				</p>
 				<p>
 					<label for="rrate"> *How Would You Rate Us? 
-						<table>
+						<table class="alltable">
 							<tr> 
 								<td>
 									<label for="rrate5"> Excellent (5 Star) <input type="radio" name="Rate" Value="Excellent" id="rrate5" required> </label> 
@@ -100,8 +101,8 @@
 					<textarea id="fanyother"></textarea>
 				</p>
 				<p>
-					<input type="submit"/>
-					<input type="reset"/>
+					<input type="submit" class="allformbtn"/>
+					<input type="reset" class="allformbtn"/>
 				</p>
 				<p> Fields Denoted With * Are Required </p>
 			</form>

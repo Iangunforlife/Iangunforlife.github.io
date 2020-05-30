@@ -14,6 +14,30 @@ html,body {
     height: 100%
 }
 
+.alltable {
+	margin-left:auto; 
+    margin-right:auto;
+	width:100%;
+}
+
+.allformbtn {
+	text-align:center;
+	border-radius:10px;
+	color:white;
+	background-color:grey;
+	height:200%;
+}
+
+.allform {
+	padding:15px;
+	border:1px solid black;
+}
+
+.allformsize {
+	width:100%;
+	box-sizing: border-box;
+  	resize: vertical;
+}
 
 /* Index Page */
 .asent {
@@ -21,8 +45,22 @@ html,body {
 	text-align:center;
 }
 
+.igridborder {
+	border-top:5px solid black;
+}
+
 .iul{
   font-size:200%;
+}
+
+.istars {
+	text-align:center;
+	font-size:100px;
+	padding-top:4%;
+}
+
+.checked {
+  color: orange;
 }
 
 /* About Us Page */
@@ -34,6 +72,13 @@ html,body {
 	border-radius:50%;
 	height:50%;
 	width:50%;
+}
+
+.aabtus {
+	font-size:1.5em;
+	font-family:Calibri;
+	margin-top:2%;
+	line-height:2em;
 }
 
 /* Gallery */
@@ -78,12 +123,6 @@ html,body {
 }
 
 /* Services */
-.ptable {
-	margin-left:auto; 
-    margin-right:auto;
-	width:100%;
-}
-
 .sadvise {
 	font-weight:bold;
 }
@@ -93,6 +132,8 @@ html,body {
     border:1px solid threedface;
 	margin:1px;
 	padding:1px;
+	width:50%;
+	margin-bottom:10px;
 }
 
 .flege {
@@ -101,32 +142,22 @@ html,body {
 	border:0px;
 	padding-inline-start: 2px;
     padding-inline-end: 2px;
+	text-align:center;
+	color:white;
+	background-color:red;
 }
 
 .ffielddiv {
-	padding-left:1%;	
+	padding-left:1%;
 }
 
-.textareaform {
-	height:250px;
-	width:500px;
-}
 
-/* Form Submit */
+/* Form Submit For Contact And Review */
 .submit1 {
 	text-align:center;
 	font-size:120%;
 }
 
-/* Not Needed For Now 17/5/20
-.nfootersp {
- 	background-color:#252525;
-  	padding:10px;
- 	color:white;
-  	margin-color:#252525;
-	position: absolute;
-  	left: 0;
-  	bottom: 0;
-  	height: 150px;
- 	width: 100%;
+.nfooterstick {
+	margin-bottom:68px;
 }
