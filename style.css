@@ -10,13 +10,19 @@
 	text-align:center;
 }
 
+.allh1{
+  	text-align:center;
+    font-family:Arial;
+    color:#3C3D3B;
+}
+
 html,body {
     height: 100%
 }
 
 .alltable {
-	margin-left:auto; 
-    margin-right:auto;
+	margin-left:auto;
+  margin-right:auto;
 	width:100%;
 }
 
@@ -24,13 +30,18 @@ html,body {
 	text-align:center;
 	border-radius:10px;
 	color:white;
-	background-color:grey;
-	height:200%;
+	background-color:green;
+	height:50px;
+  width:49%;
 }
 
 .allform {
 	padding:15px;
 	border:1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  background-color: #f1f1f1;
 }
 
 .allformsize {
@@ -39,9 +50,13 @@ html,body {
   	resize: vertical;
 }
 
+.igridcolor{
+  background-color:#f1f1f1;
+}
+
 /* Index Page */
 .asent {
-	font-size:200%; 
+	font-size:120%;
 	text-align:center;
 }
 
@@ -55,7 +70,7 @@ html,body {
 
 .istars {
 	text-align:center;
-	font-size:100px;
+	font-size:50px;
 	padding-top:4%;
 }
 
@@ -66,19 +81,23 @@ html,body {
 /* About Us Page */
 #nabtpic {
 	display: block;
- 	margin-left: auto;
-  	margin-right: auto;
-	margin-bottom: 10px;
+  margin-left:auto;
+  margin-right:auto;
+	margin-top: 40px;
 	border-radius:50%;
 	height:50%;
 	width:50%;
 }
 
 .aabtus {
-	font-size:1.5em;
-	font-family:Calibri;
-	margin-top:2%;
+	font-size:1.2em;
+	font-family:Arial;
 	line-height:2em;
+}
+
+.agrid {
+  background-color:#f1f1f1;
+  width:70%;
 }
 
 /* Gallery */
@@ -99,7 +118,7 @@ html,body {
   width: 70%;
   margin: 10px;
   text-align: center;
-  
+
 }
 
 .flex-container div h2 {
@@ -115,6 +134,7 @@ html,body {
 	text-align:end;
 	font-size:0.8em;
 	margin-right:9em;
+  font-style: italic;
 }
 
 .reviewdsic {
@@ -127,9 +147,17 @@ html,body {
 	font-weight:bold;
 }
 
+.evencolor tr:nth-child(even) {
+  background-color:rgba(255,215,0,0.3);
+}
+
+.evencolor tr:nth-child(odd) {
+  background-color:cyan;
+}
+
 /* Contact Us */
 .ffield {
-    border:1px solid threedface;
+  border:1px solid threedface;
 	margin:1px;
 	padding:1px;
 	width:50%;
@@ -141,7 +169,7 @@ html,body {
 	width:inherit;
 	border:0px;
 	padding-inline-start: 2px;
-    padding-inline-end: 2px;
+  padding-inline-end: 2px;
 	text-align:center;
 	color:white;
 	background-color:red;
